@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.815), rgba(1, 11, 15, 0.705)), url(/university.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.header{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 23px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+}
+
+.content{
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 2px 2px 2px 1px rgba(44, 195, 201, 0.555);
+    background: #fff;
+}
+
+#quote{
+    margin-top: 90px;
+    font-size: large;
+    text-align: center;
+    font-weight:400;
+}
+
+
+#author{
+margin-top: 100px;
+color: rgb(110, 45, 45);
+
+}
+
+
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(20, 28, 44);
+    margin-top: 20px;
+    transition: 500ms;
+}
+
+.btn:hover{
+
+    background-color: rgb(27, 42, 71);
+
+}
+.btn span{
+    font-size: 25px;
+}
