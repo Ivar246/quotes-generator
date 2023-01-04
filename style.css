@@ -37,8 +37,13 @@ body{
     background: #fff;
 }
 
+.quote-box{
+    margin-top: 40px;
+    height: 2rem;
+    text-align: center;
+}
+
 #quote{
-    margin-top: 90px;
     font-size: large;
     text-align: center;
     font-weight:400;

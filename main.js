@@ -6,7 +6,7 @@ let author = document.querySelector("#author");
 function quoteGenerator() {
   let random = Math.floor(Math.random() * quotes.length);
   quote.innerText = quotes[random].quote;
-  author.innerText = `-${quotes[random].author}`;
+  author.innerText = `${quotes[random].author}`;
 }
 
 button.addEventListener("click", quoteGenerator);
